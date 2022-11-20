@@ -1,0 +1,33 @@
+.faixa {
+    background-image: url("./imgfaixa/background-faixa.jpg");
+    height: 75px;
+    margin: auto;
+}
+
+.faixa i {
+    color: black;
+    font-size: 25px;
+}
+
+.faixa a i,
+.faixa a:focus i {
+    align-items: center;
+    padding-right: 6rem;
+}
+
+.social-links a:hover {
+    background: #b10a79;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.social-links{
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+}

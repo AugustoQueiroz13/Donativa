@@ -1,0 +1,12 @@
+.inne {
+    padding: 2rem;
+    width: 60%;
+    height: auto;
+    background: #e4e4e4;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 18rem;
+}
+

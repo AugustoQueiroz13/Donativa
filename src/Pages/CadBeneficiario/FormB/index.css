@@ -1,0 +1,73 @@
+
+section#cadastroBeneficiado {
+    margin-top: 0;
+    align-items: center;
+    align-content: center;
+
+}
+
+.form#cadastro {
+    margin: 0 auto;
+    padding: 50px;
+    border: none;
+    margin-top: 500;
+    display: block;
+    position: relative;
+    width: 750px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+    transition: 1s;
+}
+
+@media (max-width:768px) {
+    .form#cadastro {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:768px) {
+    .form {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+input,
+select{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button[type='submit'] {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 8rem;
+    height: 35px;
+    color: #b10a79;
+    border-color: #2b7fce;
+    margin: 15px;
+}
+
+button, input[type='button'] {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+}
+
+button[type='submit']:hover {
+    background: #2b7fce;
+    color: #fff;
+}
+
+label, input {
+    padding: 10px;
+}

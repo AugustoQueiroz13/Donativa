@@ -1,0 +1,21 @@
+#main {
+    margin-top: 0px;
+}
+
+section#inicio {
+    width: 100%;
+    height: 100vh;
+}
+
+h2#mensagem {
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+span#submensagem {
+
+    color: #2b7fce;
+    text-align: center;
+    text-decoration: none;
+}
